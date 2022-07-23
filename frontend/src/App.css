@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200;500&display=swap");
+:root {
+  /* Main colors */
+
+  --primary-color: #21492b;
+  --second-color: #2c2f33;
+  --third-color: #f58348;
+  --white: #ffffff;
+  --light-grey: #f9f9f9;
+  --purple-color: #68324c;
+}
+.App {
+  position: relative;
+  flex-direction: column;
+  background: rgba(52, 51, 54, 0.948);
+  /* display: flex; */
+  min-height: 100vh;
+  justify-content: space-between;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  /* z-index: -2; */
+  padding: 90px 0px;
+  width: 100%;
+  height: 120vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-home {
+  /* z-index: -2; */
+  padding: 25px 0px;
+  width: 100%;
+  height: 150vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+

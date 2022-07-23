@@ -1,0 +1,22 @@
+.upload-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.selectors {
+    margin: 10px 10px 10px 10px;
+}
+
+.label-containers {
+    color: rgba(233, 215, 215, 0.893);
+    font-size: 20px;
+}
+
+.upload-image {
+    height: 50vh;
+    margin-top: 20px;
+}

@@ -1,0 +1,89 @@
+
+  .carouseltitle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: 3px;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+  }
+
+  .slick-dots {
+    position: absolute;
+    bottom: 20px;
+  }
+  
+  .imgCarousel {
+    align-self: center;
+    object-fit: contain;
+    height: 60vh;
+    width: 100vw;
+
+  }
+  
+  .slick-track {
+    margin-top: 30px;
+  }
+  .card {
+    max-width: fit-content;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .carousel {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  
+  .nouv {
+    max-width: 100%;
+    border-radius: 8px;
+    -webkit-box-reflect: below 2px
+      linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .card {
+      max-width: fit-content;
+      height: 70vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+  
+    // modifie la taille de l'image dans le carousel
+    .imgCarousel {
+      align-self: center;
+      object-fit: cover;
+      height: 80vh;
+      width: 100vw;
+    }
+  }
+  @media (max-width: 600px) {
+    .carouseltitle {
+      display: flex;
+      justify-content: center;
+      margin-top: 55px;
+      flex-direction: column;
+      align-items: center;
+      font-family: "Poppins", sans-serif;
+      font-weight: lighter;
+      font-size: 25px;
+    }
+  
+    .slick-list {
+      max-height: 75vh;
+    }
+  
+    .slick-slide {
+      img {
+        width: 100vw;
+        object-fit: cover;
+      }
+    }
+  }
+  
